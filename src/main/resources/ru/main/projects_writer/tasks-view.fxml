@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="692.0"
+      prefWidth="728.0" style="-fx-background-color: #ffffff;" stylesheets="@styles/main.css"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ru.main.projects_writer.TasksWriterController">
+    <children>
+        <Label layoutX="36.0" layoutY="28.0" prefHeight="30.0" prefWidth="106.0" text="Проект: ">
+            <font>
+                <Font name="System Bold" size="14.0"/>
+            </font>
+        </Label>
+        <TextField id="projectTextField" fx:id="projectTextField" editable="false" layoutX="103.0" layoutY="28.0"
+                   prefHeight="30.0" prefWidth="600.0" promptText="Проект">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </TextField>
+        <TableView id="tasksTable" fx:id="tasksTable" editable="true" layoutX="21.0" layoutY="85.0" prefHeight="515.0"
+                   prefWidth="686.0" style="-fx-font-size: 14;">
+            <columns>
+                <TableColumn prefWidth="104.0" text="№"/>
+                <TableColumn prefWidth="207.0" text="Задача"/>
+                <TableColumn prefWidth="171.0" text="Дата создания"/>
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
+        </TableView>
+        <Button id="tasksAddButton" fx:id="tasksAddButton" layoutX="291.0" layoutY="617.0" mnemonicParsing="false"
+                prefHeight="43.0" prefWidth="146.0" text="Добавить задачу">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+    </children>
+</Pane>

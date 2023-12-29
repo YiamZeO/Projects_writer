@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.HTMLEditor?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0"
+      prefWidth="700.0" style="-fx-background-color: #ffffff;" stylesheets="@styles/main.css"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ru.main.projects_writer.UpdateCompanyController">
+    <children>
+        <Label layoutX="25.0" layoutY="27.0" prefHeight="30.0" prefWidth="87.0" text="Компания: ">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <TextField id="companyTextField" fx:id="companyTextField" layoutX="105.0" layoutY="27.0" prefHeight="30.0"
+                   prefWidth="569.0" promptText="Название компании">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </TextField>
+        <Button id="companySaveButton" fx:id="companySaveButton" layoutX="63.0" layoutY="662.0" mnemonicParsing="false"
+                prefHeight="43.0" prefWidth="170.0" text="Сохранить компанию">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="canselButton" fx:id="canselButton" layoutX="522.0" layoutY="662.0" mnemonicParsing="false"
+                prefHeight="43.0" prefWidth="101.0" text="Отмена">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button id="companyDeleteButton" fx:id="companyDeleteButton" disable="true" layoutX="291.0" layoutY="662.0"
+                mnemonicParsing="false" prefHeight="43.0" prefWidth="156.0" text="Удалить компанию">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Label layoutX="25.0" layoutY="68.0" prefHeight="43.0" prefWidth="144.0" text="Описание компании: ">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <HTMLEditor id="descriptionEditor" fx:id="descriptionEditor"
+                    htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;"
+                    layoutX="23.0" layoutY="113.0" prefHeight="530.0" prefWidth="654.0"/>
+    </children>
+</Pane>
