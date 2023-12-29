@@ -1,3 +1,7 @@
+* {
+    -fx-border-width: 1.5;
+}
+
 .button, .html-editor .button, .html-editor .toggle-button, .html-editor-background, .html-editor-foreground,
 .html-editor .button:selected, .html-editor .toggle-button:selected {
     -fx-background-color: #6a9bf7;
