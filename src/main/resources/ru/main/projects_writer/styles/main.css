@@ -49,32 +49,32 @@
     -fx-background-radius: 5px;
 }
 
-.table-view .virtual-flow .scroll-bar:vertical, .table-view .virtual-flow .scroll-bar:horizontal {
+.scroll-bar:vertical, .scroll-bar:horizontal {
     -fx-background-color: #6a9bf7;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
 }
 
-.table-view .virtual-flow .scroll-bar .increment-button,
-.table-view .virtual-flow .scroll-bar .decrement-button {
+.increment-button,
+.decrement-button {
     -fx-background-color: #6a9bf7;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
 }
 
-.table-view .virtual-flow .scroll-bar .increment-button:hover,
-.table-view .virtual-flow .scroll-bar .decrement-button:hover {
+.increment-button:hover,
+.decrement-button:hover {
     -fx-background-color: #ffffff;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
 }
 
-.table-view .virtual-flow .scroll-bar .increment-button:hover .increment-arrow,
-.table-view .virtual-flow .scroll-bar .decrement-button:hover .decrement-arrow {
+.increment-button:hover .increment-arrow,
+.decrement-button:hover .decrement-arrow {
     -fx-background-color: #000000;
 }
 
-.table-view .virtual-flow .scroll-bar:vertical .thumb {
+.scroll-bar:vertical .thumb {
     -fx-background-color: #ffffff;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
