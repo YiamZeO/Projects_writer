@@ -19,7 +19,7 @@ public class СompanyWriterApplication extends Application {
         companyWriterController = fxmlLoader.getController();
         companyWriterController.setCurrentStage(stage);
         Scene scene = new Scene(root, 799, 609);
-        stage.setTitle("Компании");
+        stage.setTitle("Компанииu");
         stage.setScene(scene);
         stage.getIcons().add(new Image("file:icon.png"));
         stage.show();
